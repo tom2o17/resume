@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Grid, Cell } from 'react-mdl'
-
+//https://www.youtube.com/watch?v=tXVmcNNZrm8&list=PL3KAvm6JMiowqFTXj3oPQkhP7aCgRHFTm&index=3
 class Landing extends Component {
     render() {
         return(
@@ -8,7 +8,7 @@ class Landing extends Component {
                 <Grid className="landing-grid">
                     <Cell col={12}>
                         <img 
-                        src="https://media-exp1.licdn.com/dms/image/C4E03AQH8rfHXTjbBLA/profile-displayphoto-shrink_800_800/0/1609194830288?e=1656547200&v=beta&t=o17j2vQzIKvfqLFWDcU_QpC0xRDWy6YPIdhTVdcQUvY"
+                        src="download.png"
                         alt="avatar"
                         className="avatar-img"
                         />
