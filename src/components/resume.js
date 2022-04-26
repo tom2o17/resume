@@ -65,6 +65,8 @@ class Resume extends Component {
                             startYear = "2022"
                             endYear = 'Current'
                             jobName="Smart Contract Engineer"
+                            organization="Ondo Finance"
+                            organizationLink = "https://ondo.finance/"
                             jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
                         />
 
@@ -72,7 +74,9 @@ class Resume extends Component {
                         <Experience
                             startYear = "2021"
                             endYear = '2022'
-                            jobName="Koinos Blockchain Analyst"
+                            organization = "Koinos"
+                            organizationLink = "https://koinos.io/"
+                            jobName="Blockchain Analyst"
                             jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
                         />
                         <hr sytle={{borderTop: '3px solid #e22947'}} />
@@ -89,15 +93,12 @@ class Resume extends Component {
                         />
                         <Skills
                             skill="JavaScript"
-                            progress={60}
+                            progress={65}
                         />
                         <Skills
                             skill="Python"
-                            progress={50}
+                            progress={60}
                         />
-
-
-
                     </Cell>
                 </Grid>
             </div>

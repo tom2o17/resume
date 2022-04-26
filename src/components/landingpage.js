@@ -13,22 +13,21 @@ class Landing extends Component {
                         className="avatar-img"
                         />
                         <div className="banner-text">
-                            <h1>Solidity Smart Contract Developer</h1>
-
+                            <h1>Solidity Developer</h1>
                         <hr/>
 
                         <p> Solidity | Java | React | node.js | TS </p>
                     <div className="social-links">
                         {/* LinkedIn */}
-                        <a href="https://google.com" rel="nooopener noreferrer" target="_blank">
+                        <a href="https://www.linkedin.com/in/tac98/" rel="nooopener noreferrer" target="_blank">
                             <i class="fa-brands fa-linkedin" aria-hidden="true"/>
                         </a>
                         {/* GitHub */}
-                        <a href="https://google.com" rel="nooopener noreferrer" target="_blank">
+                        <a href="https://github.com/tom2o17" rel="nooopener noreferrer" target="_blank">
                             <i class="fa-brands fa-github" aria-hidden="true"/>
                         </a>
                         {/* Twitter */}
-                        <a href="https://google.com" rel="nooopener noreferrer" target="_blank">
+                        <a href="https://twitter.com/toms_twetter" rel="nooopener noreferrer" target="_blank">
                             <i class="fa-brands fa-twitter" aria-hidden="true"/>
                         </a>
 
