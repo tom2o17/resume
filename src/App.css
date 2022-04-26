@@ -110,4 +110,10 @@
     padding-right: 5rem;
 }
 
-/**/
+/* Right column on the resume page*/
+.resume-right-col {
+    background: #27221F;
+    color: white;
+    padding: 2em;
+    
+}
