@@ -30,9 +30,22 @@ class Landing extends Component {
                         <a href="https://twitter.com/toms_twetter" rel="nooopener noreferrer" target="_blank">
                             <i class="fa-brands fa-twitter" aria-hidden="true"/>
                         </a>
-
                     </div>
                         </div>
+                        <a href="https://opensea.io/assets/ethereum/0xbd3531da5cf5857e7cfaa92426877b022e612cf8/6344">
+                        <img 
+                        src="6344NoB.png"
+                        alt="Penguin"
+                        className="avatar-img"
+                        />
+                        </a>
+                        <a href="https://opensea.io/assets/ethereum/0xbd3531da5cf5857e7cfaa92426877b022e612cf8/3609">
+                        <img
+                        src='3609NoB.png'
+                        alt="penguin"
+                        className="avatar-img"
+                        />
+                        </a>
                     </Cell>
                 </Grid>
             </div>

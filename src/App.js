@@ -13,7 +13,7 @@ class App extends Component {
             to="/">Thomas Clement </Link>} scroll>
               <Navigation>
                   <Link to="/resume">Resume</Link>
-                  <Link to="/aboutme">About</Link>
+                  <Link to="/aboutme">Contracts</Link>
                   <Link to="/projects">Projects</Link>
                   <Link to="/contact">Contact Me</Link>
               </Navigation>
@@ -22,7 +22,7 @@ class App extends Component {
             to="/"> Portfolio </Link>}>
               <Navigation>
                   <Link to="/resume">Resume</Link>
-                  <Link to="/aboutme">About</Link>
+                  <Link to="/aboutme">Contracts</Link>
                   <Link to="/projects">Projects</Link>
                   <Link to="/contact">Contact Me</Link>
               </Navigation>

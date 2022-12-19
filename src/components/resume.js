@@ -8,12 +8,12 @@ import Skills from "./skills";
 class Resume extends Component {
     render() {
         return(
-            <div>
+            <div className="resume" style={{paddingTop: `50px`}}>
                 <Grid>
                     <Cell col={4}>
                         <div style={{textAlign: 'center'}}>
                             <img
-                                src="https://www.shareicon.net/download/2015/09/18/103157_man_512x512.png"
+                                src="3609NoB.png"
                                 alt="avatar"
                                 style={{height: '200px'}}
                             />
@@ -23,22 +23,23 @@ class Resume extends Component {
                         <h4 style={{color: 'grey'}}>Programmer</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}></hr>
                         <p>
-                        It is a long established fact that a reader will be distracted by the readable content 
-                        of a page when looking at its layout. The point of using Lorem Ipsum is that it has a 
-                        more-or-less normal distribution of letters, as opposed to using 'Content here, 
-                        content here', making it look like readable English. Many desktop publishing packages 
-                        and web page editors now use Lorem Ipsum as their default model text, and a search for 
-                        'lorem ipsum' will uncover many web sites still in their infancy. Various versions have 
-                        evolved over the years, sometimes by accident, sometimes on purpose (injected humour and 
-                        the like).
+                        I can cook Bear Pasta, Bear Tacos and Soup Dumplings from Trader Joes. I can usually be found leaving water bottles all over my apartment, playing game game in my underwear or ripping bongs on my porch. Finally, I have to sleep with a stuffed animal - usually I'm rotating between my Shiba Inus, Sushi Cats or a Snorlax. My girlfriend is the prettiest girlfriend in the whole world, but sometimes I call her a thot. She gets mad at me when I lose my vape in the couch and I have to pull out all the couch cushions. I am not in desperate hours. 
                         </p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}></hr>
-                        <h5>Address</h5>
-                        <p> 1 Hacker Way Menlo Park, 94025</p>
-                        <h5>Phone</h5>
-                        <p>+1 (703)-980-0313</p>
-                        <h5>Web</h5>
-                        <p>exampleSite.com</p>
+                        <div className="social-links">
+                        {/* LinkedIn */}
+                        <a href="https://www.linkedin.com/in/tac98/" rel="nooopener noreferrer" target="_blank">
+                            <i class="fa-brands fa-linkedin" aria-hidden="true"/>
+                        </a>
+                        {/* GitHub */}
+                        <a href="https://github.com/tom2o17" rel="nooopener noreferrer" target="_blank">
+                            <i class="fa-brands fa-github" aria-hidden="true"/>
+                        </a>
+                        {/* Twitter */}
+                        <a href="https://twitter.com/toms_twetter" rel="nooopener noreferrer" target="_blank">
+                            <i class="fa-brands fa-twitter" aria-hidden="true"/>
+                        </a>
+                    </div>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}></hr>
                     </Cell>
 
@@ -49,13 +50,13 @@ class Resume extends Component {
                             startYear={2017}
                             endYear={2021}
                             schoolName="University of Pennsylvania"
-                            schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                            schoolDescription="Bachelor of Arts, Economics with Pre-Medical Coursework 	Graduation: May 17, 2021"
                         />
                          <Education 
                             startYear={2014}
                             endYear={2017}
                             schoolName="The Heights School"
-                            schoolDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                            schoolDescription="SAT: 1460/1600 ACT: 33"
                         />
                         <hr sytle={{borderTop: '3px solid #e22947'}} />
 
@@ -67,7 +68,7 @@ class Resume extends Component {
                             jobName="Smart Contract Engineer"
                             organization="Ondo Finance"
                             organizationLink = "https://ondo.finance/"
-                            jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                            jobDescription=""
                         />
 
 
@@ -77,7 +78,7 @@ class Resume extends Component {
                             organization = "Koinos"
                             organizationLink = "https://koinos.io/"
                             jobName="Blockchain Analyst"
-                            jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+                            jobDescription=""
                         />
                         <hr sytle={{borderTop: '3px solid #e22947'}} />
 
