@@ -23,7 +23,13 @@ class Resume extends Component {
                         <h4 style={{color: 'grey'}}>Programmer</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}></hr>
                         <p>
-                        I can cook Bear Pasta, Bear Tacos and Soup Dumplings from Trader Joes. I can usually be found leaving water bottles all over my apartment, playing game game in my underwear or ripping bongs on my porch. Finally, I have to sleep with a stuffed animal - usually I'm rotating between my Shiba Inus, Sushi Cats or a Snorlax. My girlfriend is the prettiest girlfriend in the whole world, but sometimes I call her a thot. She gets mad at me when I lose my vape in the couch and I have to pull out all the couch cushions. I am not in desperate hours. 
+                        I can cook Bear Pasta, Bear Tacos and Soup Dumplings from Trader Joes. 
+                        I can usually be found leaving water bottles all over my apartment, 
+                        playing game game in my underwear or ripping bongs on my porch. Finally, 
+                        I have to sleep with a stuffed animal - usually I'm rotating between my Shiba Inus, 
+                        Sushi Cats or a Snorlax. My girlfriend is the prettiest girlfriend in the whole world, 
+                        but sometimes I call her a thot. She gets mad at me when I lose my vape in the couch and 
+                        I have to pull out all the couch cushions. I am not in desperate hours. 
                         </p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}></hr>
                         <div className="social-links">
@@ -40,7 +46,7 @@ class Resume extends Component {
                             <i class="fa-brands fa-twitter" aria-hidden="true"/>
                         </a>
                     </div>
-                        <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}></hr>
+
                     </Cell>
 
                     <Cell col={8} className="resume-right-col">
@@ -82,9 +88,9 @@ class Resume extends Component {
                         />
                         <hr sytle={{borderTop: '3px solid #e22947'}} />
 
-                        <h2>Skills</h2>
+                        <h2>Public Work</h2>
 
-                        <Skills
+                        {/* <Skills
                             skill="Solidity"
                             progress={90}
                         />
@@ -99,7 +105,7 @@ class Resume extends Component {
                         <Skills
                             skill="Python"
                             progress={60}
-                        />
+                        /> */}
                     </Cell>
                 </Grid>
             </div>
