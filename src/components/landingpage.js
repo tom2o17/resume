@@ -32,7 +32,7 @@ class Landing extends Component {
                         </a>
                     </div>
                         </div>
-                        <a href="https://opensea.io/assets/ethereum/0xbd3531da5cf5857e7cfaa92426877b022e612cf8/6344">
+                        {/* <a href="https://opensea.io/assets/ethereum/0xbd3531da5cf5857e7cfaa92426877b022e612cf8/6344">
                         <img 
                         src="6344NoB.png"
                         alt="Penguin"
@@ -45,7 +45,7 @@ class Landing extends Component {
                         alt="penguin"
                         className="avatar-img"
                         />
-                        </a>
+                        </a> */}
                     </Cell>
                 </Grid>
             </div>

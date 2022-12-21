@@ -6,21 +6,22 @@ import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardActions, Button, CardMenu, 
 class About extends Component {
     render() {
         return(
-            <div className="landing-grid">
+            <div className="contracts-page" stlye="overflow-x:scroll">
                 <h1 style={{textAlign: 'center', color: `#f205b7`, paddingTop: `30px`}}>
                     Deployed Contracts
                 </h1>
             <table className="contracts-table">
+            <tbody>
         <thead>
           <tr>
             <th>Name</th>
             <th>Description</th>
-            <th>Total Value Secured</th>
+            <th>TVL</th>
             <th>Chain</th>
             <th>Links</th>
           </tr>
         </thead>
-        <tbody>
+        
           <tr>
             <td>OndoCoinlistDistributor</td>
             <td>Token Distribution Thought <br></br> merkle root cryptography</td>
@@ -70,7 +71,13 @@ class About extends Component {
             </td>
           </tr>
         </tbody>
-      </table>
+            </table>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             </div>
         )
     }

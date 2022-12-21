@@ -15,21 +15,22 @@ class Resume extends Component {
                             <img
                                 src="3609NoB.png"
                                 alt="avatar"
-                                style={{height: '200px'}}
+                                style={{height: '300px'}}
                             />
                         </div>
 
-                        <h2 style={{paddingTop: '2em'}}> Thomas Clement </h2>
-                        <h4 style={{color: 'grey'}}>Programmer</h4>
+                        <h2> Thomas Clement </h2>
+                        <h4 style={{color: 'grey'}}>Smart Contract Engineer</h4>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}></hr>
                         <p>
-                        I can cook Bear Pasta, Bear Tacos and Soup Dumplings from Trader Joes. 
-                        I can usually be found leaving water bottles all over my apartment, 
-                        playing game game in my underwear or ripping bongs on my porch. Finally, 
-                        I have to sleep with a stuffed animal - usually I'm rotating between my Shiba Inus, 
-                        Sushi Cats or a Snorlax. My girlfriend is the prettiest girlfriend in the whole world, 
-                        but sometimes I call her a thot. She gets mad at me when I lose my vape in the couch and 
-                        I have to pull out all the couch cushions. I am not in desperate hours. 
+                        It is a long established fact that a reader will be distracted by the readable 
+                        content of a page when looking at its layout. The point of using Lorem Ipsum is 
+                        that it has a more-or-less normal distribution of letters, as opposed to using 
+                        'Content here, content here', making it look like readable English. Many desktop 
+                        publishing packages and web page editors now use Lorem Ipsum as their default model 
+                        text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. 
+                        Various versions have evolved over the years, sometimes by accident, sometimes on purpose 
+                        (injected humour and the like).
                         </p>
                         <hr style={{borderTop: '3px solid #833fb2', width: '50%'}}></hr>
                         <div className="social-links">
@@ -108,6 +109,22 @@ class Resume extends Component {
                         /> */}
                     </Cell>
                 </Grid>
+
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
             </div>
         )
     }
