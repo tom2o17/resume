@@ -16,7 +16,7 @@ class Landing extends Component {
                             <h1>Solidity Developer</h1>
                         <hr/>
 
-                        <p> Solidity | Java | React | node.js | TS </p>
+                        <p> Solidity | React | node.js | TS </p>
                     <div className="social-links">
                         {/* LinkedIn */}
                         <a href="https://www.linkedin.com/in/tac98/" rel="nooopener noreferrer" target="_blank">
@@ -30,6 +30,11 @@ class Landing extends Component {
                         <a href="https://twitter.com/toms_twetter" rel="nooopener noreferrer" target="_blank">
                             <i class="fa-brands fa-twitter" aria-hidden="true"/>
                         </a>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        
                     </div>
                         </div>
                         {/* <a href="https://opensea.io/assets/ethereum/0xbd3531da5cf5857e7cfaa92426877b022e612cf8/6344">
