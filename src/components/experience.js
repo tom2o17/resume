@@ -8,7 +8,7 @@ class Experience extends Component {
     render() {
         return(
             <Grid>
-                <Cell col={4}>
+                <Cell col={4} style={{margin:"auto"}}>
                     <p>{this.props.startYear} - {this.props.endYear}</p>
                     <a href={this.props.organizationLink} rel="nooopener noreferrer" target="_blank">
                             Visit {this.props.organization}
