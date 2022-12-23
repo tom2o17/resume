@@ -30,7 +30,7 @@
 }
 
 .avatar-img {
-    height:250px;
+    height:175px;
     padding-top: 5em;
     padding-left: auto;
     padding-right: auto;
@@ -138,6 +138,7 @@
     color: white;
     padding: 2em;
     border-radius: 1cm;
+    justify-content: center;
 }
 
 .contracts-page {
@@ -158,9 +159,10 @@
     margin-left: 5vw;
     margin-right: 5vw;
     border-spacing: 30px;
-    border-radius: 1cm;
-    display: flex;
+    border-radius: 1cm; 
+    display: flex; 
     overflow-x: scroll;
+    flex-direction: row;
 }
 
 table {
@@ -168,5 +170,5 @@ table {
   height: auto;
   width: auto;
   overflow: scroll;
-  justify-content: center;
+  justify-content: left;
 }

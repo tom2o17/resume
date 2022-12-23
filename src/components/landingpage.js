@@ -7,7 +7,7 @@ class Landing extends Component {
             <div style={{width: `100%`, margin: `auto`}}>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img 
+                        <img
                         src="download.png"
                         alt="avatar"
                         className="avatar-img"
@@ -16,7 +16,7 @@ class Landing extends Component {
                             <h1>Solidity Developer</h1>
                         <hr/>
 
-                        <p> Solidity | React | node.js | TS </p>
+                        <p> JS | React | node.js | TS </p>
                     <div className="social-links">
                         {/* LinkedIn */}
                         <a href="https://www.linkedin.com/in/tac98/" rel="nooopener noreferrer" target="_blank">

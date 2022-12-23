@@ -10,6 +10,7 @@ class About extends Component {
                 <h1 style={{textAlign: 'center', color: `#f205b7`, paddingTop: `30px`}}>
                     Deployed Contracts
                 </h1>
+            <view style={{ flexDirection: 'row'}}>
             <table className="contracts-table">
             <tbody>
         <thead>
@@ -23,8 +24,8 @@ class About extends Component {
         </thead>
         
           <tr>
-            <td>OndoCoinlistDistributor</td>
-            <td>Token Distribution Thought <br></br> merkle root cryptography</td>
+            <td>Ondo Coinlist Distributor</td>
+            <td>Token Distribution thought Merkle Root cryptography</td>
             <td>10M$</td>
             <th>Ethereum Mainnet</th>
             <td>
@@ -39,8 +40,8 @@ class About extends Component {
             </td>
           </tr>
           <tr>
-            <td>ConvexAutocompounder</td>
-            <td>Auto Compounding Strategy for<br></br>3crv stable Pool</td>
+            <td>Convex Auto Compounder</td>
+            <td>Auto Compounding Strategy for 3crv stable Pool</td>
             <td>2K$</td>
             <th>Ethereum Mainnet</th>
             <td>
@@ -72,12 +73,7 @@ class About extends Component {
           </tr>
         </tbody>
             </table>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
+            </view>
             </div>
         )
     }

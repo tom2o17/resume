@@ -6,7 +6,7 @@ class Education extends Component {
     render() {
         return(
             <Grid>
-                <Cell col={4}>
+                <Cell col={4} style={{margin:"auto"}}>
                     <p>{this.props.startYear} - {this.props.endYear}</p>
                 </Cell>
                 <Cell col={8}>
