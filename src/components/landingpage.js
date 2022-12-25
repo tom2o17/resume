@@ -13,7 +13,7 @@ class Landing extends Component {
                         className="avatar-img"
                         />
                         <div className="banner-text">
-                            <h1>Solidity Developer</h1>
+                            <h1 style={{paddingTop: `5px`}}>Solidity Dev</h1>
                         <hr/>
 
                         <p> JS | React | node.js | TS </p>

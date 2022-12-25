@@ -7,7 +7,7 @@ class About extends Component {
     render() {
         return(
             <div className="contracts-page" stlye="overflow-x:scroll">
-                <h1 style={{textAlign: 'center', color: `#f205b7`, paddingTop: `30px`}}>
+                <h1 style={{textAlign: 'center', color: `white`, paddingTop: `30px`}}>
                     Deployed Contracts
                 </h1>
             <view style={{ flexDirection: 'row'}}>
@@ -17,59 +17,49 @@ class About extends Component {
           <tr>
             <th>Name</th>
             <th>Description</th>
-            <th>TVL</th>
+            <th>TVS</th>
             <th>Chain</th>
-            <th>Links</th>
           </tr>
         </thead>
         
           <tr>
             <td>Ondo Coinlist Distributor</td>
-            <td>Token Distribution thought Merkle Root cryptography</td>
+            <td>Token Distribution through Merkle Root<br></br> cryptography</td>
             <td>10M$</td>
-            <th>Ethereum Mainnet</th>
-            <td>
-                <a href="https://etherscan.io/address/0x3c0417900f5231d448c32c7f4cad40e1efad36fc#code" target='_blank'>
-                <Button style={{color: `#f205b7`}}>Etherscan</Button>
-                </a>
-            </td>
-            <td>
+            <a href="https://etherscan.io/address/0x3c0417900f5231d448c32c7f4cad40e1efad36fc#code" target='_blank'>
+            <td style={{color: `#f205b7`}}>Ethereum Mainnet</td>
+            </a>
+            {/* <td>
                 <a href="https://etherscan.deth.net/address/0x3c0417900f5231d448c32c7f4cad40e1efad36fc#code" target="_blank">
                 <Button style={{color: `#f205b7`}}>CodeView</Button>
                 </a>
-            </td>
+            </td> */}
           </tr>
           <tr>
             <td>Convex Auto Compounder</td>
             <td>Auto Compounding Strategy for 3crv stable Pool</td>
             <td>2K$</td>
-            <th>Ethereum Mainnet</th>
-            <td>
-                <a href="https://etherscan.io/address/0xd88E41f1B456844d1B7365A27f73891A86687AFf#code" target='_blank'>
-                <Button style={{color: `#f205b7`}}>Etherscan</Button>
-                </a>
-            </td>
-            <td>
+            <a href="https://etherscan.io/address/0xd88E41f1B456844d1B7365A27f73891A86687AFf#code" target='_blank'>
+            <td style={{color: `#f205b7`}}>Ethereum Mainnet</td>
+            </a>
+            {/* <td>
                 <a href="https://etherscan.deth.net/address/0xd88E41f1B456844d1B7365A27f73891A86687AFf#code" target="_blank">
                 <Button style={{color: `#f205b7`}}>CodeView</Button>
                 </a>
-            </td>
+            </td> */}
           </tr>
           <tr>
-            <td>QuickSwapStrategyV2</td>
-            <td>Auto Compounding Strategy for<br></br>TUSD-USDC Quickswap Pool</td>
+            <td>QuickSwap Strategy V2</td>
+            <td>Auto Compounding Strategy for TUSD/USDC <br></br>Quickswap Pool</td>
             <td>2K$</td>
-            <th>Polygon Mainnet</th>
-            <td>
-                <a href="https://etherscan.io/address/0x3c0417900f5231d448c32c7f4cad40e1efad36fc#code" target='_blank'>
-                <Button style={{color: `#f205b7`}}>Etherscan</Button>
-                </a>
-            </td>
-            <td>
+            <a href="https://polygonscan.com/address/0xa96611fd9c002ae19bfcf5b682e97db590ff8d1d#tokentxns" target='_blank'>
+            <td style={{color: `#f205b7`}}>Polygon Mainnet</td>
+            </a>
+            {/* <td>
                 <a href="https://etherscan.deth.net/address/0x3c0417900f5231d448c32c7f4cad40e1efad36fc#code" target="_blank">
                 <Button style={{color: `#f205b7`}}>CodeView</Button>
                 </a>
-            </td>
+            </td> */}
           </tr>
         </tbody>
             </table>
