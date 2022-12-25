@@ -16,7 +16,7 @@ class Landing extends Component {
                             <h1 style={{paddingTop: `5px`}}>Solidity Dev</h1>
                         <hr/>
 
-                        <p> JS | React | node.js | TS </p>
+                        <p> TS | JS | Node | React </p>
                     <div className="social-links">
                         {/* LinkedIn */}
                         <a href="https://www.linkedin.com/in/tac98/" rel="nooopener noreferrer" target="_blank">
